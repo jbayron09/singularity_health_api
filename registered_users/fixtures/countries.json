@@ -1,0 +1,26 @@
+[
+  {
+    "model": "registered_users.country",
+    "pk": 1,
+    "fields": {
+      "country_code": "CO",
+      "country_name": "Colombia"
+    }
+  },
+  {
+    "model": "registered_users.country",
+    "pk": 2,
+    "fields": {
+      "country_code": "US",
+      "country_name": "United States"
+    }
+  },
+  {
+    "model": "registered_users.country",
+    "pk": 3,
+    "fields": {
+      "country_code": "MX",
+      "country_name": "Mexico"
+    }
+  }
+]

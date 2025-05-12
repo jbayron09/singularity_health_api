@@ -1,0 +1,23 @@
+[
+  {
+    "model": "registered_users.typedocument",
+    "pk": 1,
+    "fields": {
+      "name_type_document": "Cédula de Ciudadanía"
+    }
+  },
+  {
+    "model": "registered_users.typedocument",
+    "pk": 2,
+    "fields": {
+      "name_type_document": "Cédula de Extranjería"
+    }
+  },
+  {
+    "model": "registered_users.typedocument",
+    "pk": 3,
+    "fields": {
+      "name_type_document": "Pasaporte"
+    }
+  }
+]
