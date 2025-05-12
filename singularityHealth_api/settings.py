@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     # Third-Party Apps
     'corsheaders',
     'graphene_django',
+
+    # Custom Apps
+    'registered_users.apps.RegisteredUsersConfig',
 ]
 
 MIDDLEWARE = [
