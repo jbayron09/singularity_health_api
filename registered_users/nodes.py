@@ -10,21 +10,25 @@ from registered_users.models import (
 )
 
 from registered_users.filtersets import (
+    CountryFilterSet,
     AppUserFilterSet,
     UserDocumentFilterSet,
     ContactInfoFilterSet,
+    TypeDocumentFilterSet
 )
 
 
 class TypeDocumentNode(DjangoObjectType):
     class Meta:
         model = TypeDocument
+        filterset_class = TypeDocumentFilterSet
         interfaces = (relay.Node,)
 
 
 class CountryNode(DjangoObjectType):
     class Meta:
         model = Country
+        filterset_class = CountryFilterSet
         interfaces = (relay.Node,)
 
 

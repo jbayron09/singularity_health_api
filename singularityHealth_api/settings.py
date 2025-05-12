@@ -145,5 +145,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # graphene
 
 GRAPHENE = {
-    "SCHEMA": "topoTools_api.schema.schema",
+    "SCHEMA": "singularityHealth_api.schema.schema",
 }
